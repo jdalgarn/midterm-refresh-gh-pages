@@ -1,0 +1,56 @@
+body {
+	background: url("../img/bg.png");
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Navigation - ALL (Base Styling) LINKS*/
+
+nav li{
+
+	float: left;
+	list-style: none;
+	margin: 0px 20px;
+
+}
+
+nav a{
+
+	background: green;
+	padding: 20px 20px 20px 40px;
+
+}
+
+
+/* NAVIGATION - Link States */
+
+nav a:link,
+
+nav a:visited {
+
+	background: lime;
+	padding: 20px 20px 20px 40px;	
+}
+
+nav a:hover,
+nav a:active {
+
+	background: url("../img/link-1.png") no-repeat left center;
+
+}
+
+/* Grab just the first link */
+
+#first a:hover{
+
+	background: orange;
+
+}
+
+
+
+/* Helper Classes */
+.showgrid {
+
+	background: url("../img/grid-bg.png");
+}
+
